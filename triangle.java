@@ -16,17 +16,12 @@ public class triangle {
 		boolean resultat=false;
 		resultat = !estIsocele(a,b,c);
 		return resultat;
-		
-		
-		
-		
 
 	}
 	public static void main(String args[]){
-		System.out.println("le triangle 2 2 3 est isocèle ?" + estIsocele(2,2,3));
+		System.out.println("le triangle 2 2 3 est isocÃ¨le ?" + estIsocele(2,2,3));
 		System.out.println("le triangle 2 2 3 est equilateral ?" + estEquilateral(2,2,3));
 		System.out.println("le triangle 2 2 3 est quelconqe ?" + estQuelconque(2,2,3));
-		
 		
 	}
 }
